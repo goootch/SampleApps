@@ -10,6 +10,8 @@ namespace WebApplication1.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Date = DateTime.Now;
+            ViewBag.Azure = "on Azure Web Apps !";
             return View();
         }
 
