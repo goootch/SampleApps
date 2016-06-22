@@ -11,7 +11,7 @@ namespace WebApplication1.Controllers
         public ActionResult Index()
         {
             ViewBag.Date = DateTime.Now;
-            ViewBag.Azure = "on Azure Web Apps by GitHub !";
+            ViewBag.Azure = "on Azure Web Apps at staging by GitHub !";
             return View();
         }
 
